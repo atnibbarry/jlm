@@ -1,7 +1,21 @@
-doctype html
 html
   head
-    title= title
+    title= pageTitle
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
-    block content
+    header
+      div.logo
+        h1 Jeunes Leaders du Monde
+      nav
+        ul
+          li
+            a(href='/') Accueil
+          li
+            a(href='/coaching') Coaching
+          li
+            a(href='/formation') Formation
+          li
+            a(href='/events') Événements
+    main
+      block content
+    

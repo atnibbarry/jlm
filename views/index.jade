@@ -1,5 +1,47 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  div.presentation
+    h2 Présentation
+    p Bienvenue sur mon site dédié à l'amélioration de soi-même et à la prise de leadership. Nous sommes une communauté de jeunes leaders déterminés à atteindre nos objectifs personnels et professionnels. Nos services de coaching et de formation sont conçus pour vous aider à acquérir les compétences nécessaires pour réussir dans la vie.
+
+    hr
+
+  div.services
+    h2 Nos Services
+    ul
+      li
+        h3 Coaching personnalisé
+        p Nous offrons un coaching personnalisé pour vous aider à définir vos objectifs et à atteindre votre potentiel maximum.
+
+      li
+        h3 Formation en leadership
+        p Nous proposons des formations en leadership pour vous aider à développer vos compétences en communication, en prise de décision et en gestion d'équipe.
+
+      li
+        h3 Événements exclusifs
+        p Nous organisons des événements exclusifs pour vous permettre de réseauter avec d'autres jeunes leaders et d'enrichir vos connaissances.
+
+      li
+        h3 Ressources en ligne
+        p Nous mettons à votre disposition des ressources en ligne pour vous aider à développer vos compétences en leadership, à votre propre rythme.
+
+    hr
+
+    section#testimonials
+    h2 Témoignages de nos jeunes
+    .testimonials-container
+      .testimonial
+        blockquote 
+          p "Je suis vraiment reconnaissant de tout ce que j'ai appris dans ce programme. Les conseils et les encouragements que j'ai reçus m'ont aidé à trouver ma voie et à réaliser mes rêves." 
+        figcaption 
+          img(src="/images/person1.jpg", alt="Person 1")
+          h3 John Doe
+          h4 Étudiant en marketing
+      .testimonial
+        blockquote 
+          p "Le coaching m'a permis de découvrir mes forces et mes faiblesses et de développer mes compétences en leadership. Je suis maintenant plus confiant et plus compétent dans mon travail." 
+        figcaption 
+          img(src="/images/person2.jpg", alt="Person 2")
+          h3 Jane Smith
+          h4 Entrepreneure
