@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
+    "build": "webpack --config webpack.config.js",
     "test": "mocha test/*.js"
   },
   "dependencies": {
